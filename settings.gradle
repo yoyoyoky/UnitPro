@@ -1,1 +1,4 @@
 include ':app'
+
+include ':logger'
+project(':logger').projectDir = new File(settingsDir, '../Logger/logger')
